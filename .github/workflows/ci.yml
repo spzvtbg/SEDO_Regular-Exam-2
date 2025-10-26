@@ -7,7 +7,7 @@ on:
       - feature
 
 jobs:
-  install-dependencies-and-test:
+  install-dependencies-and-run-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
